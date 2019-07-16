@@ -1,24 +1,26 @@
-# README
+## Soofapay Ruby Demo
+###usage
+Before using this project, ensure that ruby on rails is installed
+you can check installation guide here https://guides.rubyonrails.org/v5.0/getting_started.html
+cloning project
+```
+$git clone https://github.com/soofapay/ruby_soofa_demo.git 
+```
+installing project dependencies
+while in the project root (where the GemFile is located ), run the command below
+```
+$bundle install
+```
+After installing the dependencies 
+run the command below to make migrations 
+```
+$rails db:migrate 
+```
+After installation run
+```
+$rails server
+```
+to tun the development server 
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
 
-Things you may want to cover:
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
