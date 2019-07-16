@@ -1,5 +1,5 @@
 ## Soofapay Ruby Demo
-###usage
+### usage
 Before using this project, ensure that ruby on rails is installed
 you can check installation guide here https://guides.rubyonrails.org/v5.0/getting_started.html
 cloning project
