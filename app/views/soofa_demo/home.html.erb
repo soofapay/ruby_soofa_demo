@@ -1,0 +1,44 @@
+<% provide(:title, " Home ") %>
+<p id="notice"><%= notice %></p>
+<div class="center">
+  <h4  style="padding:auto;margin-top:20px">Welcome to the Sample App</h4>
+
+  <h5 style="padding:auto; margin-bottom:20px;">
+    This is the demo page for the
+    <a href="https://www.soofapay.com/">SoofaPay Payment solutions</a>
+    sample integrated application.
+  </h5>
+</div>
+<div class="container">
+  <div class="row ">
+    <div class="col-sm-2">
+    </div>
+    <div class="col-sm-4">
+    <%= link_to image_tag("nokia.jpg"),'#', id: "nokia"%>
+    </div>
+     <div class="col-sm-4">
+       <ul class="list-group" style="margin-top:30px">
+                <li class="list-group-item active">Key Features</li>
+                <li class="list-group-item">RAM 3GB</li>
+                <li class="list-group-item">Internal storage 32GB</li>
+                <li class="list-group-item">Expandable storage Yes</li>
+                <li class="list-group-item">Expandable storage type microSD</li>
+         <%= form_tag("/demos/", method: "post" )do %>
+           <%= hidden_field_tag(:amount, '10') %>
+           <%= hidden_field_tag(:reference, "my reference") %>
+           <%= hidden_field_tag(:tid,"") %>
+           <%= submit_tag("Proceed to pay", :id => "ww", :class =>"qbn-submit btn btn-block btn-primary")%>
+         <% end %>
+      </ul>
+    </div>
+    <div class="col-sm-2">
+    </div>
+  </div>
+  <div class="modal fade bd-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-sm">
+    <div class="modal-content">
+      ...
+    </div>
+  </div>
+</div>
+</div>
