@@ -2,7 +2,8 @@
 ### usage
 Before using this project, ensure that ruby on rails is installed
 on your machine. You can check installation guide here https://guides.rubyonrails.org/v5.0/getting_started.html.
-cloning project
+
+Cloning project
 ```
 $git clone https://github.com/soofapay/ruby_soofa_demo.git 
 ```
@@ -21,6 +22,3 @@ After installation run
 $rails server
 ```
 to tun the development server 
-
-
-
