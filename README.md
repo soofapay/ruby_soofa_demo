@@ -21,4 +21,4 @@ After installation run
 ```
 $rails server
 ```
-to tun the development server 
+to run the development server 
