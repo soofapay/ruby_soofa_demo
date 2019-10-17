@@ -5,8 +5,8 @@ class DemosController < ApplicationController
 
   # POST /demos
   # POST /demos.json
-  TILL_NO = 5002
-  CLIENT_SECRET = "3ixwt45uq88wttqgixpyla8d27ob0w"
+  TILL_NO = 5005
+  CLIENT_SECRET = "1zjmqsomeaxx8j8nqrn3t9oc1ee4ig"
 
   def create
     tid = params["tid"]
