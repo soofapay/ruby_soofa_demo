@@ -69,6 +69,6 @@ gem 'therubyracer'
 gem 'minitest', group: :test
 gem 'minitest-reporters', group: :test
 gem 'soofapay', '~>0.1', '0.1.2'
-gem 'json', '~> 1.8', '>= 1.8.3'
+gem 'json', '~> 2.3'
 gem 'url', '~> 0.3.2'
 gem 'rest-client', '~> 2.0', '>= 2.0.2'
